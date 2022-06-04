@@ -8,7 +8,16 @@ DEBUG = True
 
 # Connect to the database
 
-
-# TODO IMPLEMENT DATABASE URL
 SQLALCHEMY_TRACK_MODIFICATIONS = False
-SQLALCHEMY_DATABASE_URI = 'postgresql://postgres@localhost:5432/fyyurapp'
+
+SQLALCHEMY_DATABASE_URI = 'postgresql://udacity:1234@localhost:5432/fyyurapp'
+
+# POSTGRES = {
+#     'user': 'udacity',
+#     'pw': '1234',
+#     'db': 'fyyur',
+#     'host': 'localhost',
+#     'port': '5432',
+# }
+
+# SQLALCHEMY_DATABASE_URI='postgresql://%(user)s:\%(pw)s@%(host)s:%(port)s/%(db)s' % POSTGRES
