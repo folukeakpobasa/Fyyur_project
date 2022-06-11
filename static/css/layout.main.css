@@ -55,3 +55,16 @@ h3 {
 h3 > span.orange {
   color: #FF9C44;
 }
+ul {
+  width: 500px;
+}
+
+li button {
+  -webkit-appearance: none;
+  border: none;
+  outline: none;
+  color: red;
+  float: left;
+  cursor: pointer;
+  font-size: 15px;  
+}

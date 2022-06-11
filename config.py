@@ -10,7 +10,7 @@ DEBUG = True
 
 SQLALCHEMY_TRACK_MODIFICATIONS = False
 
-SQLALCHEMY_DATABASE_URI = 'postgresql://udacity:1234@localhost:5432/fyyurapp'
+SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:1234@localhost:5432/fyyurapp'
 
 # POSTGRES = {
 #     'user': 'udacity',
